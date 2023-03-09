@@ -33,10 +33,10 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/xiaomi/rubens/device.mk)
 
 # Device identifier
-PRODUCT_DEVICE := rubens
-PRODUCT_NAME := twrp_rubens
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 22041211AC
+PRODUCT_DEVICE := plato
+PRODUCT_NAME := twrp_plato
+PRODUCT_BRAND := 12T
+PRODUCT_MODEL := 22071212AG
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Hide Reflash TWRP
