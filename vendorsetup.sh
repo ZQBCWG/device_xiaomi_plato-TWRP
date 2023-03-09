@@ -29,7 +29,7 @@ if [ -f $FOX_MANIFEST_ROOT/bootable/recovery/orangefox_defaults.go -a -f $FOX_MA
     export LC_ALL="C"
     export FOX_VERSION=$(date +%y.%m.%d)
     export ALLOW_MISSING_DEPENDENCIES=true
-    export TARGET_DEVICE_ALT="rubens"
+    export TARGET_DEVICE_ALT="plato"
     export OF_VIRTUAL_AB_DEVICE=1
     export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
     export OF_MAINTAINER="D8100-9000-TWRP-Device-Tree Team"
